@@ -1,0 +1,4 @@
+docker-compose up -d
+docker ps
+docker exec -it [id] bash
+docker exec -it spark-master spark-submit /opt/spark/test.py
