@@ -31,9 +31,20 @@ This project implements a full-scale data lakehouse architecture to process, sto
 - **Source**: [MIMIC-IV v3.1](https://physionet.org/content/mimiciv/3.1/)
 - **Description**: De-identified electronic health records from ICU patients collected between 2008–2019 at Beth Israel Deaconess Medical Center.
 - **Scale**: ~7 million patients, 50+ structured tables.
-🎯 Future Improvements
+
+---
+
+##🎯 Future Improvements
 - Integrate Apache Airflow for pipeline orchestration.
 - Add CI/CD pipeline via GitHub Actions.
 - Support CDC & incremental load.
 - Deploy to Kubernetes (for production readiness).
 - Add more advanced analytics (e.g., ML integration with PySpark).
+
+---
+
+##📊 Sample Dashboard
+<img width="945" height="669" alt="image" src="https://github.com/user-attachments/assets/44087247-4116-493c-8bfd-302cd17ab9ca" />
+<img width="945" height="634" alt="image" src="https://github.com/user-attachments/assets/c511ec1d-a7f0-4024-856d-efdeea02171f" />
+
+
